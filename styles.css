@@ -70,7 +70,7 @@ body {
     align-items: center;
 }
 
-/* Information */
+/* INFORMATION */
 
 .info {
     display: flex;
@@ -106,4 +106,35 @@ body {
     min-height: 100px;
     border: 2px solid cornflowerblue;
     border-radius: 8px;
+}
+
+/* QUOTE */
+
+.quote-container {
+    background-color: #E5E7EB;
+    padding: 64px 96px;
+    display: flex;
+    justify-content: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    min-width: 300px;
+    max-width: 450px;
+    gap: 8px;
+}
+
+.quote-text {
+    font-size: 36px light;
+    font-style: italic;
+    color: #4b4f53
+}
+
+.quote-author {
+    text-align: right;
+    font-weight: bold;
+    font-size: small;
 }
