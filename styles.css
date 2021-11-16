@@ -138,3 +138,44 @@ body {
     font-weight: bold;
     font-size: small;
 }
+
+/* CALL TO ACTION */
+
+.call-action-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 100px;
+}
+
+.call-action {
+    background-color: #3882F6;
+    display: flex;
+    padding: 32px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    min-width: 600px;
+}
+
+.call-text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.call-main {
+    font-size: 24px;
+}
+
+.call-sub {
+    font-size: 12px;
+}
+
+.call-signup {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-color: white;
+    border-radius: 8px;
+    padding: 8px 32px;
+}
