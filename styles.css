@@ -146,6 +146,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 64px 100px;
+    flex: 1;
 }
 
 .call-action {
@@ -178,4 +179,18 @@ body {
     border-color: white;
     border-radius: 8px;
     padding: 8px 32px;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 8px;
+}
+
+.footer-text {
+    color: #F9FAF8;
+    font-size: 12px;
 }
